@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to set your country code.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.rfp.com</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>RPF</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_ppWNPJFhzy45RVmV7l5VzdgprDaK4zPc</string>
+		<key>test</key>
+		<string>key_test_meXPNTypAr3ZMKlI7bYOFeofyufI5wMu</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>fbnd1.app.link</string>
+		<string>fbnd1-alternate.app.link</string>
+		<string>fbnd1.test-app.link</string>
+		<string>fbnd1-alternate.test-app.link</string>
+	</array>
+</dict>
+</plist>
